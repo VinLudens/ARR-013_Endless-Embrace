@@ -1,7 +1,7 @@
 # About
 
-This repository contains the [lilypond](https://lilypond.org/) code I wrote to produce the final music sheets.
+Lilypond source code for my *Endless Embrace* piano arrangement.
 
 # Recording
 
-Recording on my [YouTube channel](https://www.youtube.com/@VinLudens): https://youtu.be/0NnmdyqXUTA
+- https://youtu.be/0NnmdyqXUTA
