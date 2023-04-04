@@ -18,14 +18,6 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
 %showLastLength = R1 * 10
 
 % version "2.23.10"
-%pagenumheader = \markup { \fill-line { \null \fromproperty #'page:page-number-string } }
-%\paper {
-%  #(set-paper-size "a4")
-%  evenHeaderMarkup = \markup { \on-the-fly \print-page-number-check-first \pagenumheader }
-%  oddHeaderMarkup = \evenHeaderMarkup
-%}
-
-% version "2.23.10"
 \paper {
   #(set-paper-size "a4")
   evenHeaderMarkup = \markup { \if \should-print-page-number { \fill-line { "" \fromproperty #'page:page-number-string } } }
